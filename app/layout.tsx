@@ -9,7 +9,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 let title = "Llama Tutor – AI Personal Tutor";
 let description = "Learn faster with our open source AI personal tutor";
-let url = "https://llamatutor.com/";
+let url = "https://llama-ai-tutor.vercel.app/";
 let ogimage = "https://llamatutor.together.ai/og-image.png";
 let sitename = "llamatutor.com";
 
