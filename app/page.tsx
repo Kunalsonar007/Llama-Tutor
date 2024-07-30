@@ -134,7 +134,7 @@ export default function Home() {
       <Header />
 
       <main
-        className={`flex grow flex-col px-4 pb-4 ${showResult ? "overflow-hidden" : ""}`}
+        className={`flex grow flex-col pb-4 ${showResult ? "overflow-hidden" : ""}`}
       >
         {showResult ? (
           <div className="mt-2 flex w-full grow flex-col justify-between overflow-hidden">
