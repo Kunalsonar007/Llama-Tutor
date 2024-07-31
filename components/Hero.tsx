@@ -27,7 +27,7 @@ const Hero: FC<THeroProps> = ({
   };
 
   return (
-    <main className="flex grow flex-col mx-0 pb-4">
+    <>
       <div className="mx-auto mt-10 flex max-w-3xl flex-col items-center justify-center sm:mt-36">
         <a
           className="mb-4 inline-flex h-7 shrink-0 items-center gap-[9px] rounded-[50px] border-[0.5px] border-solid border-[#E6E6E6] bg-[rgba(234,238,255,0.65)] bg-white px-5 py-4 shadow-[0px_1px_1px_0px_rgba(0,0,0,0.25)]"
@@ -45,7 +45,7 @@ const Hero: FC<THeroProps> = ({
             Powered by <b>Llama 3.1</b> and <b>Meta AI</b>
           </span>
         </a>
-        <h2 className="mt-2 bg-custom-gradient bg-clip-text text-center text-4xl font-medium tracking-tight text-gray-900 sm:text-6xl">
+        <h2 className="mt-2 bg-custom-gradient bg-clip-text text-center text-3xl font-medium tracking-tight text-gray-900 sm:text-6xl">
           Your Personal{" "}
           <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text font-bold text-transparent">
             Tutor
@@ -110,10 +110,10 @@ const Hero: FC<THeroProps> = ({
         <Image
           src={mobileImg}
           alt="hero"
-          className="my-5 max-w-full lg:hidden"
+          className="my-5 mx-auto max-w-[90%] lg:hidden"
         />
       </div>
-    </main>
+    </>
   );
 };
 

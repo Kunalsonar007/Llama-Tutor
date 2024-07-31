@@ -9,7 +9,7 @@ const Footer = () => {
           unoptimized
           src="/new-logo.svg"
           alt="footer"
-          width={160}
+          width={120}
           height={30}
         />
       </a>
