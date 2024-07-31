@@ -51,7 +51,7 @@ const Hero: FC<THeroProps> = ({
             Tutor
           </span>
         </h2>
-        <p className="mt-4 text-balance text-center text-sm sm:text-base">
+        <p className="mt-4 text-balance text-center text-[13.5px] sm:text-base">
           Enter a topic you want to learn about along with the education level
           you want to be taught at and generate a personalized tutor tailored to
           you!

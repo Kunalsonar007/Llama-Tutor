@@ -33,7 +33,7 @@ const InitialInputArea: FC<TInputAreaProps> = ({
 
   return (
     <form
-      className="mx-auto flex w-full flex-col items-center justify-between gap-4 sm:flex-row sm:gap-0"
+      className="mx-auto flex w-[95%] flex-col items-center justify-between gap-4 sm:flex-row sm:gap-0"
       onSubmit={(e) => {
         e.preventDefault();
         handleInitialChat();
@@ -42,7 +42,7 @@ const InitialInputArea: FC<TInputAreaProps> = ({
       <div className="flex w-full rounded-lg border">
         <textarea
           placeholder="Teach me about..."
-          className="block w-full resize-none rounded-l-lg border-r p-6 text-sm text-gray-900 placeholder:text-gray-400 sm:text-base"
+          className="block w-full resize-none rounded-l-lg border-r p-6 text-[13.2px] text-gray-900 placeholder:text-gray-400 sm:text-base"
           disabled={disabled}
           value={promptValue}
           required
@@ -70,7 +70,7 @@ const InitialInputArea: FC<TInputAreaProps> = ({
       <button
         disabled={disabled}
         type="submit"
-        className="relative flex size-[72px] w-[358px] shrink-0 items-center justify-center rounded-md bg-[linear-gradient(154deg,#2A8EF9_23.37%,#175CB6_91.91%)] disabled:pointer-events-none disabled:opacity-75 sm:ml-3 sm:w-[72px]"
+        className="relative flex size-[72px] w-[100%] shrink-0 items-center justify-center rounded-md bg-[linear-gradient(154deg,#2A8EF9_23.37%,#175CB6_91.91%)] disabled:pointer-events-none disabled:opacity-75 sm:ml-3 sm:w-[72px]"
       >
         {disabled && (
           <div className="absolute inset-0 flex items-center justify-center">
