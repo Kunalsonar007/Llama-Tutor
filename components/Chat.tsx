@@ -59,7 +59,7 @@ export default function Chat({
   }, []);
 
   return (
-    <div className="flex grow flex-col gap-4 overflow-hidden">
+    <div className="flex grow flex-col gap-4 m-3 overflow-hidden">
       <div className="flex grow flex-col overflow-hidden lg:p-4">
         <p className="uppercase text-gray-900">
           <b>Topic: </b>
@@ -77,9 +77,9 @@ export default function Chat({
                     <Image
                       src={simpleLogo}
                       alt=""
-                      className="absolute left-0 top-0 !my-0 size-7"
+                      className="relative display-block mx-auto left-0 top-0 !my-3 size-7"
                     />
-                    <ReactMarkdown className="w-full pl-10">
+                    <ReactMarkdown className="w-full pl-0">
                       {message.content}
                     </ReactMarkdown>
                   </div>
