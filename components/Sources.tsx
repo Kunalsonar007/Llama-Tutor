@@ -8,7 +8,7 @@ export default function Sources({
   isLoading: boolean;
 }) {
   return (
-    <div className="bg-white max-lg:-order-1 lg:flex lg:w-full lg:max-w-[300px] lg:flex-col ml-3 mt-3">
+    <div className="bg-white max-lg:-order-1 lg:flex lg:w-full lg:max-w-[300px] lg:flex-col ml-3 mt-0">
       <div className="flex items-start gap-4 pb-3 lg:pb-3.5">
         <h3 className="text-base font-bold uppercase leading-[152.5%] text-black">
           sources:{" "}
