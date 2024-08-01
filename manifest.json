@@ -1,0 +1,26 @@
+{
+  "background_color": "#ffffff",
+  "description": "Learn faster with our open source AI personal tutor",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "llamatutor.com",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "llamatutor.com",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "32x29"
+    },
+    {
+      "src": "https://llamatutor.together.ai/og-image.png"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ]
+}
