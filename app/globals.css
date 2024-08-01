@@ -20,7 +20,7 @@
     display: flex;
     gap: 3px;
   }
- 
+
   .loader span {
     display: inline-block;
     vertical-align: middle;
@@ -57,18 +57,25 @@ body {
   margin: 0px !important;
 }
 
-::-webkit-scrollbar{
-  width: 10px;
+::-webkit-scrollbar {
+  width: 7px;
   border-radius: 10px;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 10px;
 }
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background: #6f6767;
-} 
-::-webkit-scrollbar-track{
+}
+::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  ::scrollbar-width {
+    width: 7px;
+    border-radius: 10px;
+  }
 }
