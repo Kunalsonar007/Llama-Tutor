@@ -4,6 +4,7 @@ import desktopImg from "../public/desktop-screenshot.png";
 import mobileImg from "../public/screenshot-mobile.png";
 import InitialInputArea from "./InitialInputArea";
 import { suggestions } from "@/utils/utils";
+import Footer from "@/components/Footer";
 
 type THeroProps = {
   promptValue: string;
@@ -113,6 +114,7 @@ const Hero: FC<THeroProps> = ({
           className="my-5 mx-auto max-w-[90%] lg:hidden"
         />
       </div>
+      { <Footer />}
     </>
   );
 };
