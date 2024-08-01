@@ -50,7 +50,7 @@ const FinalInputArea: FC<TInputAreaProps> = ({
       <div className="flex w-full rounded-lg border">
         <textarea
           placeholder="Follow up question"
-          className="block w-full resize-none rounded-l-lg border-r p-6 text-gray-900 placeholder:text-gray-400 border-cyan-300"
+          className="block w-full resize-none rounded-l-lg border-r p-6 text-gray-900 placeholder:text-gray-400"
           disabled={disabled}
           value={promptValue}
           onKeyDown={handleKeyDown}
