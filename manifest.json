@@ -2,7 +2,7 @@
   "background_color": "#ffffff",
   "description": "Learn faster with our open source AI personal tutor",
   "dir": "ltr",
-  "display": "standalone",
+  "display": "fullscreen",
   "name": "llamatutor.com",
   "orientation": "any",
   "scope": "/",
@@ -22,5 +22,9 @@
       "src": "/favicon.ico",
       "type": "image/x-icon"
     }
-  ]
+  ],
+  "categories": [
+    "education"
+  ],
+  "lang": "en"
 }
